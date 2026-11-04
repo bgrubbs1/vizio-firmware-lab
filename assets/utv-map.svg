@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="270" viewBox="0 0 920 270" role="img" aria-labelledby="title desc">
+  <title id="title">Vizio Firmware Lab</title>
+  <desc id="desc">A legacy UTV record starts with a 32-byte clear header. Its total length points to the next record. The rest of the record is opaque to the parser. Diagram not to scale.</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1" gradientUnits="objectBoundingBox"><stop stop-color="#102239"/><stop offset="1" stop-color="#071320"/></linearGradient>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#83adc9" stroke-opacity=".09"/></pattern>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0 0L7 4L0 8Z" fill="#82b5d2"/></marker>
+  </defs>
+  <rect width="920" height="270" rx="22" fill="url(#bg)"/>
+  <rect x="1" y="1" width="918" height="268" rx="21" fill="url(#grid)" stroke="#34546c"/>
+  <g font-family="system-ui, sans-serif">
+    <text x="39" y="42" fill="#74e4d1" font-size="12" font-weight="700" letter-spacing="3">COMMUNITY RESEARCH</text>
+    <text x="36" y="99" fill="#f0f7ff" font-size="54" font-weight="750">Vizio Firmware Lab</text>
+    <text x="40" y="130" fill="#acc7dc" font-size="17">Firmware formats · SmartCast launcher research</text>
+    <rect x="40" y="159" width="242" height="55" rx="7" fill="#123a47" stroke="#60deca"/>
+    <rect x="290" y="159" width="415" height="55" rx="7" fill="#203349" stroke="#7099bb"/>
+    <rect x="747" y="159" width="133" height="55" rx="7" fill="#132439" stroke="#7099bb" stroke-dasharray="5 4"/>
+    <text x="56" y="181" fill="#dcfff9" font-size="14" font-weight="650">CLEAR HEADER</text>
+    <text x="56" y="200" fill="#9be3d8" font-size="12" font-family="monospace">32 bytes · offset 0x00</text>
+    <text x="307" y="181" fill="#eef6ff" font-size="14" font-weight="650">OPAQUE RECORD BODY</text>
+    <text x="307" y="200" fill="#aac4dc" font-size="12" font-family="monospace">record length − 32 bytes</text>
+    <path d="M711 186H737" stroke="#82b5d2" stroke-width="2" marker-end="url(#arrow)"/>
+    <text x="813" y="181" text-anchor="middle" fill="#e8f4ff" font-size="13" font-weight="650">NEXT RECORD</text>
+    <text x="813" y="200" text-anchor="middle" fill="#aac4dc" font-size="12">or end of file</text>
+    <text x="40" y="244" fill="#8eafc7" font-size="12" font-family="monospace">LEGACY UPDATELOGIC UTV  /  STRUCTURAL VIEW  /  NOT TO SCALE</text>
+  </g>
+</svg>

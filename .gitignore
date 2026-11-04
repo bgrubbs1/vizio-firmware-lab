@@ -1,0 +1,11 @@
+*.utv
+*.bin
+*.img
+*.zip
+*.pem
+*.key
+.env*
+__pycache__/
+captures/
+private/
+samples/
